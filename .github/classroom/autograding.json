@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Execução",
+      "setup": "gcc main.c -o main",
+      "run": "./main",
+      "input": "",
+      "output": "Hello World",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
